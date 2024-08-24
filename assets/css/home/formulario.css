@@ -2,17 +2,16 @@
   position: relative;
   display: flex;
   width: 450px;
-  height: 530px;
-  margin-top: 120px;
+  height: 510px;
+  margin: 120px 0;
   flex-direction: column;
-  background-color: var(--cor-s2);
+  background-color: var(--cor-s1);
   border-radius: 8px;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.20);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.20), 0 10px 10px 0 rgba(0, 0, 0, 0.10);
 }
 
 .form-box .titulo {
-  padding-top: 40px;
-  padding-bottom: 48px;
+  padding: 40px 0;
   margin: 0 auto;
   font-family: 'Amatic SC', serif;
   font-weight: 700;
@@ -22,8 +21,7 @@
 }
 
 .form-box .mensagem {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 0 40px;
   font-weight: bold;
   font-size: 1.5rem;
   line-height: 1.33;
@@ -32,12 +30,12 @@
 
 .form-box::after {
   content: '';
-  width: 45px;
+  width: 48px;
   height: 5px;
   border-radius: 5px;
   background-color: var(--cor-e3);
   position: absolute;
-  top: 205px;
+  top: 195px;
   left: 40px;
 }
 
@@ -45,10 +43,8 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  flex-wrap: nowrap;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 45px;
+  padding: 0 40px;
+  margin-top: 40px;
 }
 
 .form-box label {
@@ -62,6 +58,7 @@
 .form-box input {
   width: 370px;
   height: 48px;
+  outline: none;
   padding-left: 16px;
   margin-bottom: 16px;
   border-radius: 8px;
@@ -73,13 +70,14 @@
 .form-box button {
   display: inline-block;
   align-self: center;
+  text-align: center;
   border: none;
   width: 200px;
   height: 40px;
   margin-top: 24px;
   margin-bottom: 40px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.20);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20), 0 4px 5px rgba(0, 0, 0, 0.10);
   background-image: linear-gradient(var(--cor-e1), var(--cor-e4));
   color: var(--cor-s0);
   font-family: "Roboto", sans-serif;

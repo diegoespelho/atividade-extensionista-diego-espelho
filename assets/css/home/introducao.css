@@ -6,20 +6,22 @@
 .intro-conteudo {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
+  justify-content: space-between;
   gap: 40px;
-  max-width: 1200px;
-  height: 762px;
-  background-image: url("/assets/img/bg-intro-90.jpg");
+  background-image: url("/assets/img/bg-intro.jpg");
   background-size: cover;
   background-position: top left;
 }
 
 .intro-conteudo h1{
-  max-width: 840px;
-  margin-top: 160px;
-  font-family: "Amatic SC", serif;
+  margin: 160px 0;
+  font-family: 'Amatic SC', serif;
   font-size: 5rem;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.125;
   color: var(--cor-s0);
+}
+
+.intro-conteudo h1 span {
+  color: var(--cor-e3);
 }

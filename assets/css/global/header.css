@@ -32,7 +32,7 @@
   content: "";
   display: block;
   width: 0px;
-  height: 1.25px;
+  height: 1.5px;
   background: var(--cor-s0);
   transition: 300ms;
   position: absolute;
