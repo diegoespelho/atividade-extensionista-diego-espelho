@@ -21,7 +21,8 @@
   --cor-b2: #2f89d8;
   --cor-b3: #1b71bd;
   --cor-b4: #015aaa;
-  --cor-b5: #0146a6;
+  --cor-b5: #054CAF;
+  --cor-b6: #0146a6;
 }
 
 /* cores-de-suporte */
@@ -82,4 +83,7 @@
 }
 .cor-b5 {
   color: var(--cor-b5);
+}
+.cor-b6 {
+  color: var(--cor-b6);
 }

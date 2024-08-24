@@ -1,17 +1,16 @@
 .header-bg {
   max-width: 100%;
-  background-color: var(--cor-b5);
+  background-color: var(--cor-b6);
 }
 
 .header-conteudo {
   display: flex;
-  gap: 20px;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo {
-  padding: 10px 0px;
+  padding: 12px 0px;
 }
 
 .header-menu {
@@ -33,7 +32,7 @@
   content: "";
   display: block;
   width: 0px;
-  height: 2px;
+  height: 1.25px;
   background: var(--cor-s0);
   transition: 300ms;
   position: absolute;
@@ -46,12 +45,12 @@
 @media (max-width: 700px) {
   .header-conteudo {
     flex-direction: column;
-    gap: 10px;
   }
 
   .header-menu {
     justify-content: center;
     gap: 20px;
+    margin-bottom: 12px;
   }
 
   .header-menu a {

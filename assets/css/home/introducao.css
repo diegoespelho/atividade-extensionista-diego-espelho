@@ -1,0 +1,22 @@
+.intro-bg {
+  max-width: 100%;
+  background-image: linear-gradient(to right, var(--cor-b2), var(--cor-b2) 50%, var(--cor-b5), var(--cor-b5) 50%);
+}
+
+.intro-conteudo {
+  max-width: 1200px;
+  height: 762px;
+  background-image: url("/assets/img/bg-intro-90.jpg");
+  background-size: cover;
+  background-position: top left;
+}
+
+.intro-conteudo h1{
+  max-width: 840px;
+  padding: 160px 0 360px 0;
+  font-family: "Amatic SC", serif;
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 1.125;
+  color: var(--cor-s0);
+}
