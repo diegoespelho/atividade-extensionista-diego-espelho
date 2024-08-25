@@ -1,10 +1,10 @@
 .form-box {
   position: relative;
   display: flex;
+  flex-direction: column;
   width: 450px;
   height: 510px;
-  margin: 120px 0;
-  flex-direction: column;
+  margin: 120px auto;
   background-color: var(--cor-s1);
   border-radius: 8px;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.1);
@@ -30,12 +30,13 @@
 
 .form-box::after {
   content: "";
+  display: block;
   width: 48px;
-  height: 5px;
-  border-radius: 5px;
+  height: 4px;
+  border-radius: 4px;
   background-color: var(--cor-e3);
   position: absolute;
-  top: 195px;
+  top: 189px;
   left: 40px;
 }
 
@@ -44,14 +45,14 @@
   flex-direction: column;
   align-items: start;
   padding: 0 40px;
-  margin-top: 40px;
+  margin: 40px 0;
 }
 
 .form-box label {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.25;
-  color: var(--cor-s6);
+  color: var(--cor-s5);
   margin-bottom: 4px;
 }
 
@@ -75,12 +76,11 @@
   width: 200px;
   height: 40px;
   margin-top: 24px;
-  margin-bottom: 40px;
   border-radius: 8px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 4px 5px rgba(0, 0, 0, 0.1);
   background-image: linear-gradient(var(--cor-e1), var(--cor-e4));
   color: var(--cor-s0);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.25rem;
   line-height: 1.5;
   font-weight: 700;
@@ -94,7 +94,7 @@
 
 @media (max-width: 1000px) {
   .form-box {
-    margin: 60px 0 120px 0;
+    margin: 40px 0 100px 0;
   }
 }
 
@@ -102,8 +102,7 @@
   .form-box {
     display: flex;
     width: 350px;
-    height: 435px;
-    margin: 60px 0 100px 0;
+    height: 428px;
   }
 
   .form-box .titulo {
@@ -117,12 +116,12 @@
   }
 
   .form-box::after {
-    top: 160px;
+    top: 153px;
     left: 32px;
   }
 
   .form-box form {
-    margin-top: 32px;
+    margin: 32px 0;
     padding: 0 32px;
   }
 
@@ -134,8 +133,6 @@
     width: 286px;
     height: 40px;
     outline: none;
-    padding-left: 16px;
-    margin-bottom: 16px;
     font-size: 0.875rem;
   }
 
@@ -147,7 +144,6 @@
     width: 180px;
     height: 40px;
     margin-top: 16px;
-    margin-bottom: 32px;
     font-size: 1.125rem;
   }
 }

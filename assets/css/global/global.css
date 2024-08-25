@@ -1,3 +1,30 @@
+:root {
+  /* cores-de-suporte */
+  --cor-s0: #ffffff;
+  --cor-s1: #dbe1e9;
+  --cor-s2: #cdd7e4;
+  --cor-s3: #a4b3c5;
+  --cor-s4: #434c59;
+  --cor-s5: #2e3743;
+  --cor-s6: #171e26;
+  --cor-s7: #000000;
+
+  /* cores-de-enfase */
+  --cor-e1: #fc8358;
+  --cor-e2: #f87345;
+  --cor-e3: #f16534;
+  --cor-e4: #e84e18;
+  --cor-e5: #da4511;
+
+  /* cores-de-base */
+  --cor-b1: #469eeb;
+  --cor-b2: #2f89d8;
+  --cor-b3: #1b71bd;
+  --cor-b4: #015aaa;
+  --cor-b5: #054CAF;
+  --cor-b6: #0146a6;
+}
+
 * {
   margin: 0;
   padding: 0;
