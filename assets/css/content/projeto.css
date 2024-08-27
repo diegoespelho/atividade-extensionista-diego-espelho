@@ -1,0 +1,14 @@
+.projeto-bg {
+  color: var(--cor-s6);
+}
+
+.projeto-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.projeto-conteudo h2 {
+  display: block;
+  grid-column: 1 / -1;
+  justify-self: center;
+}
