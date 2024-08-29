@@ -1,6 +1,6 @@
 .sobre-conteudo {
   display: grid;
-  gap: 60px;
+  gap: 40px;
   padding: 100px 20px 120px 20px;
 }
 
@@ -32,7 +32,7 @@
 .sobre-descricao1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px 60px;
+  gap: 40px;
   max-width: 870px;
   justify-self: center;
   text-align: end;
@@ -46,7 +46,7 @@
 .sobre-descricao2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px 60px;
+  gap: 40px;
   max-width: 870px;
   justify-self: center;
 }
