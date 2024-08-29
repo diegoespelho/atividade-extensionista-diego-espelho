@@ -6,8 +6,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
-  margin: 40px 0 60px 0;
-  padding: 60px 0;
+  padding: 100px 20px 120px 20px;
 }
 
 .sobre-conteudo .titulo {
@@ -72,17 +71,23 @@
   font-weight: 500;
   line-height: 1.5;
   color: var(--cor-s5);
-  list-style: circle;
 }
 
 .sobre-descricao ul li {
   margin-bottom: 15px;
 }
 
+.sobre-descricao .valor-item {
+  color: var(--cor-b3);
+}
+
+.sobre-descricao ul li span {
+  color: var(--cor-e3);
+}
+
 @media (max-width: 800px) {
   .sobre-conteudo {
     grid-template-columns: 1fr;
     max-width: 500px;
-    margin: 40px auto 60px auto;
   }
 }
