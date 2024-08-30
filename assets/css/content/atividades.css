@@ -50,13 +50,13 @@
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 8px;
   color: var(--cor-s0);
-  opacity: 0;
-  transition: all 200ms ease-in-out;
+  /*opacity: 0;
+  transition: all 200ms ease-in-out;*/
 }
 
-.atividades-imagens picture:hover h3 {
+/*.atividades-imagens picture:hover h3 {
   opacity: 1;
-}
+}*/
 
 .atividades-imagens img {
   border-radius: 8px;
@@ -73,9 +73,9 @@
     width: 360px;
   }
 
-  .atividades-imagens picture h3 {
+  /*.atividades-imagens picture h3 {
     opacity: 1;
-  }
+  }*/
 }
 
 @media (max-width: 650px) {
