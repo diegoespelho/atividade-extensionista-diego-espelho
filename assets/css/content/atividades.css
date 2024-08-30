@@ -1,0 +1,86 @@
+.atividades-conteudo {
+  display: grid;
+  gap: 40px;
+  padding: 100px 20px 120px 20px;
+}
+
+.atividades-conteudo .titulo {
+  position: relative;
+  justify-self: center;
+  margin-bottom: 20px;
+  font-family: "Amatic SC", serif;
+  font-size: 3.75rem;
+  line-height: 1.125;
+  color: var(--cor-s6);
+}
+
+.atividades-conteudo .titulo span {
+  color: var(--cor-e3);
+}
+
+.atividades-conteudo .titulo::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--cor-e3);
+  position: absolute;
+  top: 68px;
+}
+
+.atividades-imagens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.atividades-imagens picture {
+  position: relative;
+}
+
+.atividades-imagens picture h3 {
+  position: absolute;
+  padding: 0 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  color: var(--cor-s0);
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+
+.atividades-imagens picture:hover h3 {
+  opacity: 1;
+}
+
+.atividades-imagens img {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 950px) {
+  .atividades-imagens {
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+  }
+
+  .atividades-imagens img {
+    width: 360px;
+  }
+
+  .atividades-imagens picture h3 {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 650px) {
+  .atividades-imagens {
+    grid-template-columns: 1fr;
+    justify-self: center;
+  }
+}

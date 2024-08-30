@@ -31,9 +31,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   color: var(--cor-s0);
+  ;
 }
 
 ul {
