@@ -1,5 +1,6 @@
 .intro-bg {
   background-image: linear-gradient(to right, var(--cor-b2), var(--cor-b2) 50%, var(--cor-b5), var(--cor-b5) 50%);
+  padding-top: 72px;
 }
 
 .intro-conteudo {

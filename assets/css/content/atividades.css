@@ -1,7 +1,8 @@
 .atividades-conteudo {
   display: grid;
   gap: 40px;
-  padding: 100px 20px 120px 20px;
+  padding: 90px 20px 120px 20px;
+  margin-top: 10px;
 }
 
 .atividades-conteudo .titulo {

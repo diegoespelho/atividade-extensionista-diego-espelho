@@ -19,3 +19,7 @@ function closeMenu() {
 btnMobile.addEventListener("click", toggleMenu);
 
 menuLinks.forEach(link => link.addEventListener("click", closeMenu));
+
+window.onload = function() {
+  window.scrollTo(0, 0);
+};
