@@ -36,11 +36,11 @@
 }
 
 .atividades-imagens picture {
+  display: block;
   position: relative;
 }
 
 .atividades-imagens picture h3 {
-  display: block
   position: absolute;
   padding: 0 10px;
   top: 50%;
