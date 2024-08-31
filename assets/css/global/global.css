@@ -55,3 +55,9 @@ img {
   height: auto;
   display: block;
 }
+
+@media (max-width: 800px) {
+  html {
+    scroll-behavior: auto;
+  }
+}
