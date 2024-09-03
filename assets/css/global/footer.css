@@ -8,7 +8,7 @@
   max-width: 1200px;
   margin: 0 auto;
   gap: 40px;
-  padding: 60px 20px 0 20px;
+  padding: 60px 20px 0;
   justify-items: center;
 }
 
@@ -68,6 +68,8 @@
   text-align: center;
 }
 
+/* Responsividade */
+
 @media (max-width: 800px) {
   .footer > img {
     display: none;
@@ -81,7 +83,7 @@
   .footer {
     grid-template-columns: 1fr;
     gap: 60px;
-    padding: 60px 40px 0 40px;
+    padding: 60px 40px 0;
     justify-items: start;
   }
 

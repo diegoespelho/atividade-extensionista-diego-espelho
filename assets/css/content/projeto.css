@@ -5,10 +5,13 @@
 }
 
 .projeto-conteudo {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
-  padding: 100px 20px 120px 20px;
+  padding: 100px 20px 120px;
 }
 
 .projeto-conteudo h2 {
@@ -87,6 +90,8 @@
 .projeto-descricao ul li span {
   color: var(--cor-e3);
 }
+
+/* Responsividade */
 
 @media (max-width: 800px) {
   .projeto-conteudo {

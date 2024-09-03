@@ -1,7 +1,10 @@
 .sobre-conteudo {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
   display: grid;
   gap: 40px;
-  padding: 100px 20px 120px 20px;
+  padding: 100px 20px 120px;
 }
 
 .sobre-conteudo .titulo {
@@ -105,6 +108,8 @@
   border-radius: 8px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.1);
 }
+
+/* Responsividade */
 
 @media (max-width: 900px) {
   .sobre-descricao1 {

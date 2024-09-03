@@ -1,5 +1,6 @@
 :root {
   /* cores-de-suporte */
+  
   --cor-s0: #ffffff;
   --cor-s1: #dbe1e9;
   --cor-s2: #cdd7e4;
@@ -10,6 +11,7 @@
   --cor-s7: #000000;
 
   /* cores-de-enfase */
+
   --cor-e1: #fc8358;
   --cor-e2: #f87345;
   --cor-e3: #f16534;
@@ -17,6 +19,7 @@
   --cor-e5: #da4511;
 
   /* cores-de-base */
+
   --cor-b1: #469eeb;
   --cor-b2: #2f89d8;
   --cor-b3: #1b71bd;
@@ -24,6 +27,8 @@
   --cor-b5: #054CAF;
   --cor-b6: #0146a6;
 }
+
+/* Definições iniciais */
 
 * {
   margin: 0;
@@ -55,6 +60,8 @@ img {
   height: auto;
   display: block;
 }
+
+/* Responsividade */
 
 @media (max-width: 800px) {
   html {

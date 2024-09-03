@@ -4,6 +4,9 @@
 }
 
 .intro-conteudo {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   justify-content: space-between;
@@ -25,6 +28,8 @@
   color: var(--cor-e3);
 }
 
+/* Responsividade */
+
 @media (max-width: 1000px) {
   .intro-conteudo {
     grid-template-columns: 1fr;
@@ -32,7 +37,7 @@
     justify-items: center;
   }
   .intro-conteudo h1 {
-    margin: 100px 0 40px 0;
+    margin: 100px 0 40px;
     font-size: 4.5rem;
     text-align: center;
   }

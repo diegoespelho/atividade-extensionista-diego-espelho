@@ -92,9 +92,11 @@
   background-image: linear-gradient(var(--cor-e2), var(--cor-e5));
 }
 
+/* Responsividade */
+
 @media (max-width: 1000px) {
   .form-box {
-    margin: 40px 0 100px 0;
+    margin: 40px 0 100px;
   }
 }
 
